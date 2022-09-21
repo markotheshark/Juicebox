@@ -86,3 +86,10 @@ usersRouter.post('/register', async(req, res, next) => {
 
 module.exports = usersRouter;
 
+//USER 1 TOKEN:
+//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhbGJlcnQiLCJpYXQiOjE2NjM3OTEzMjh9.YgY2M9t8V7M_2dDbDZhaj4eDnAQ5LaPvft53ySIsz_8
+
+//curl http://localhost:3000/api/posts/1 -X DELETE -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhbGJlcnQiLCJpYXQiOjE2NjM3OTEzMjh9.YgY2M9t8V7M_2dDbDZhaj4eDnAQ5LaPvft53ySIsz_8'
+
+
+
